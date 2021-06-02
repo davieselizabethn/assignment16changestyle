@@ -1,0 +1,51 @@
+.content {
+    padding: 10px;
+}
+
+.content > * {
+    padding: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.red > * {
+    border: red 2px solid;
+    background-color: #ffecec;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue > * {
+    border: blue 2px solid;
+    background-color: #b4d5ff;
+}
+
+.green {
+    color: green;
+}
+
+.green > * {
+    border: green 2px solid;
+    background-color: #ceffb4;
+}
+
+.purple {
+    color: rebeccapurple;
+}
+
+.purple > * {
+    border: rebeccapurple 2px solid;
+    background-color: #eacfff;
+}
+
+.disabled {
+    pointer-events: none;
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
